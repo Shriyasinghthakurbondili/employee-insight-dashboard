@@ -1,0 +1,76 @@
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #f8fafc);
+    margin-top:0;
+
+}
+.container{
+    width:360px;
+    padding:35px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 280px;
+}
+h2{
+    margin-bottom: 25px;
+    color:#1f2937;
+}
+label{
+    font-weight: 600;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+input{
+    width:100%;
+    padding:10px;
+    margin:8px;
+    border-radius: 5px;
+    border:1px solid #d1d5db;
+    outline:none;
+    font-size: 14px;
+}
+input:focus{
+    border-color:#3b82f6;
+    box-shadow: 0 0 4px rgba(50,130,346,0.3);
+}
+button:hover{
+    margin-top: 20px;
+    width: 100%;
+    padding:10px;
+    background: #3b82f6;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:focus{
+    background: #2563eb;
+}
+.employee-list a{
+    display: block;
+    padding: 8px;
+    margin: 4px;
+    color:#007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.employee-list a:hover{
+    background: #f1f3f5;
+    border-radius: 4px;
+}
+video{
+    margin-top: 15px;
+    border-radius: 6px;
+}
+canvas{
+    margin-top: 10px;
+    border-radius: 6px;
+    border:1px solid #ccc;
+}
