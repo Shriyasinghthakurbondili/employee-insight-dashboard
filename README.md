@@ -16,4 +16,4 @@ This bug was intentionally kept to show that the canvas should normally be clear
 ->This project does not implement list virtualization.
 ->The employee list is rendered using the standard React .map() method because the dataset is small.
 ->If the dataset becomes very large, virtualization techniques can be used to render only visible rows and improve performance.
->>>>>>> 94cf2b06c3ea67a6a9e2e8770d6c88f31001ecb4
+
